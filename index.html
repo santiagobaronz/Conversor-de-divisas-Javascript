@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section>
+        <div class="caja-de-conversion">
+            <div class="cabecera-conversion">
+                <h1>Conversor de divisas (USD | EUR | COP)</h1>
+                <p>Seleccione su divisa, ingrese un valor y luego elija la moneda a la cual quiere convertir</p>
+            </div>
+            <div class="cuerpo-conversion">
+                <div class="valor-inicial">
+                    <select name="badge" id="badge">
+                        <option value="COP">COP</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                    <input type="number" id="amount">
+                </div>
+                <div class="valor-final">
+                    <select name="to_badge" id="to_badge">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="COP">COP</option>
+                    </select>
+                    <input type="number" id="final-value" disabled>
+                </div>
+                <button id="button">Convertir moneda</button>
+            </div>
+    
+        </div>
+    </section>
+</body>
+</html>

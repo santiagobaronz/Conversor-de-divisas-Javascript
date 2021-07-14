@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #f6f7fb;
+}
+
+.cabecera-conversion{
+    margin-bottom: 20px;
+}
+
+.caja-de-conversion{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25%;
+    transform: translateY(-25%);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 1px 1px 24px rgb(0 0 0 / 10%);
+    
+}
+
+.valor-inicial, .valor-final{
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+
+select{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+input{
+    margin-right: 30px;
+    width: 100%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.valor-inicial{
+    float: left;
+}
+
+button{
+    background-color: green;
+    width: 100%;
+    border-radius: 7px;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
